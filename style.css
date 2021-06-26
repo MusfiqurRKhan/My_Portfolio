@@ -1,0 +1,28 @@
+body{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+h1{
+    font-size:50px;
+}
+p{
+    font-size:18px;
+}
+.first{
+    color:#00fa36;
+}
+.second{
+    font-size:25px;
+}
+.imageA{
+    width:600px;
+    height:auto;
+    float:left;
+    margin:10px;
+    padding:5px;
+}
+.kiraimg{
+    width:100%;
+    height:auto;
+    margin-left:113px;
+    margin-top:-120px;
+}
