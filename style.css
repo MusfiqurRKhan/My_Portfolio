@@ -7,22 +7,30 @@ h1{
 p{
     font-size:18px;
 }
+section{
+    height:500px;
+}
 .first{
     color:#00fa36;
 }
 .second{
     font-size:25px;
 }
-.imageA{
-    width:600px;
-    height:auto;
-    float:left;
-    margin:10px;
-    padding:5px;
+.F_Half{
+    width: 580px; 
+    float:left; 
+    padding-left:25px;
+    margin-left:30px;
+}
+.Margin{
+    margin-left:70px;
+}
+#BGimage{
+    background-image:url("images/HeaderBckG.jpg");
+    background-repeat:no-repeat;
 }
 .kiraimg{
     width:100%;
-    height:auto;
-    margin-left:113px;
-    margin-top:-120px;
+    margin-left:125px;
+    margin-top:-120px; 
 }
