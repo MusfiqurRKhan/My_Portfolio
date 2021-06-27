@@ -1,8 +1,10 @@
+                /*First Part*/
 body{
     font-family: 'Big Shoulders Stencil Display', cursive;
 }
 h1{
     font-size:50px;
+    
 }
 p{
     font-size:18px;
@@ -33,4 +35,70 @@ section{
     width:100%;
     margin-left:125px;
     margin-top:-120px; 
+}
+#findme{
+    font-size:16px;
+    font-family:sans-serif;
+    color:#200424;
+    font-weight:700;
+    text-decoration:none;
+    background-image:linear-gradient(45deg,aqua,#042f2f);
+    border-width:2px;
+    border-color:#20030a;
+    border-style:solid;
+    border-radius:20px;
+    margin-left:150px;
+    padding-top:2px;
+    padding-right:20px;
+    padding-bottom:2px;
+    padding-left:20px;
+}
+#findme:hover{
+    color:white;
+    border-color:white;
+}
+            /*Second Part*/
+section{
+    height:500px;
+}
+ #code{
+    width:500px;
+    height:auto;
+}
+.sec_half{
+    width:580px;
+    float:left;    
+}
+#dream{
+    color:gold;
+}
+.center{
+    text-align: center;
+}
+#resume:hover{
+    color:white;
+    border-color:white;
+}
+#resume{
+    font-size:16px;
+    font-family:sans-serif;
+    color:#200424;
+    font-weight:700;
+    text-decoration:none;
+    background-image:linear-gradient(45deg,#d6aa1a,#80650e);
+    border-width:2px;
+    border-color:#20030a;
+    border-style:solid;
+    border-radius:20px;
+    margin-left:200px;
+    padding-top:2px;
+    padding-right:20px;
+    padding-bottom:2px;
+    padding-left:20px;
+}
+.BGimage2{
+    background-image:url('images/footer-bg.png');
+    background-repeat:no-repeat;
+    width:750px;
+    height:500px;
 }
