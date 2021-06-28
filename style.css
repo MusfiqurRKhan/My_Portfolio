@@ -1,6 +1,8 @@
                 /*First Part*/
 body{
     font-family: 'Big Shoulders Stencil Display', cursive;
+    padding:0%;
+    margin:0%;
 }
 h1{
     font-size:50px;
@@ -8,6 +10,7 @@ h1{
 }
 p{
     font-size:18px;
+    color:#0f0101;
 }
 section{
     height:500px;
@@ -42,7 +45,7 @@ section{
     color:#200424;
     font-weight:700;
     text-decoration:none;
-    background-image:linear-gradient(45deg,aqua,#042f2f);
+    background-image:linear-gradient(90deg,aqua,#042f2f);
     border-width:2px;
     border-color:#20030a;
     border-style:solid;
@@ -66,14 +69,21 @@ section{
     height:auto;
 }
 .sec_half{
-    width:580px;
-    float:left;    
+    width:550px;
+    float:left; 
+    padding-top:70px;
 }
 #dream{
     color:gold;
 }
 .center{
-    text-align: center;
+    font-size:45px;
+    text-align: right;
+    margin-right:80px;
+}
+#width{
+    width:680px;
+    padding-right:80px;
 }
 #resume:hover{
     color:white;
@@ -85,7 +95,7 @@ section{
     color:#200424;
     font-weight:700;
     text-decoration:none;
-    background-image:linear-gradient(45deg,#d6aa1a,#80650e);
+    background-image:linear-gradient(90deg,#d6aa1a,#80650e);
     border-width:2px;
     border-color:#20030a;
     border-style:solid;
@@ -97,8 +107,59 @@ section{
     padding-left:20px;
 }
 .BGimage2{
-    background-image:url('images/footer-bg.png');
+    background-image:url('images/dream-bg.png');   
+    width:100%;
+    background-repeat:no-repeat; 
+    background-position:right;
+}
+                /*Last Part*/
+.last-part{
+    background-image:url('images/exp-bg.png');  
     background-repeat:no-repeat;
-    width:750px;
-    height:500px;
+    background-position:left;
+}
+.lastD-part{
+    width:30%;
+    height:230px;
+    float:left;
+    padding:5.5%;
+    margin:4%;
+    text-align: justify;
+}
+#me{
+    font-size:35px;
+    text-align: center;
+ }  
+h2{
+    font-size:40px;
+}     
+h3{
+    color:red;
+    font-weight:700;
+}   
+.box{
+     box-shadow:10px 10px 40px  grey;
+     background-color:white;
+}    
+#lineA{
+    border-width:6px;
+    border-color:transparent;
+    border-image:linear-gradient(180deg , #ff5b77 , rgb(129, 14, 182));
+    border-image-slice:1;
+    border-left-style:solid;
+
+}  
+#lineB{
+    border-width:6px;
+    border-color:transparent;
+    border-image:linear-gradient(180deg , #4cccec , #1409a5);
+    border-image-slice:1;
+    border-left-style:solid;
+
+}
+            /*Footer*/
+footer{
+    color:tomato;
+    font-weight:700;
+    text-align: center;
 }
