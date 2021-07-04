@@ -124,10 +124,13 @@ h3{
     margin: 3%;
     padding:2%;
     box-shadow:10px 10px 10px 10px gray; 
+    background-color:white;
+    
 
 
 }
 #boxa{
+    margin-left:50px;
     border-width:6px;
     border-color:transparent;
     border-image:linear-gradient(180deg ,#ff5b77 , rgb(86, 10, 161));
@@ -157,7 +160,7 @@ footer{
     font-size:18px;
 }
 .hange{
-    background-image:url('images/exp-bg.png');  
+    background-image:url("images/exp-bg.png");
     background-repeat:no-repeat;
     background-position:left;
 }
